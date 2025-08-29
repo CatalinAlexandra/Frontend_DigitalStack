@@ -3,10 +3,15 @@ h1 {
   background-color: lightgrey;
 }
 
+h2 {
+  color: darkgreen;
+  background-color: lightyellow;
+}
 p {
   font-size: 18px;
   line-height: 1.15;
   color: #333;
+  background-color: beige;
 }
 a {
   color: blue;
@@ -19,6 +24,8 @@ ul {
 }
 li {
   margin-bottom: 5px;
+  color: brown;
+  background-color: lightyellow;
 }
 img {
   max-width: 100%;
