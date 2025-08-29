@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Layout</title>
+    <style>
+      .container {
+        display: flex;
+        height: 90vh;
+      }
+
+      .container > .left {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        background-color: red;
+      }
+
+      .center .left {
+        display: flex;
+      }
+
+      .center > .left {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .right {
+        background-color: rgb(0, 0, 255);
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="top"></div>
+        <div class="center">
+          <div class="left">
+            <div class="top"></div>
+            <div class="right"></div>
+          </div>
+          <div class="bottom"></div>
+        </div>
+        <div class="right"></div>
+      </div>
+      <div class="bottom"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>
