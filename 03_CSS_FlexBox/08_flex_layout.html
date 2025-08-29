@@ -3,31 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flex Layout</title>
+    <title>Flex layout</title>
     <style>
       .container {
         display: flex;
         height: 90vh;
+        gap: 2px;
       }
-
-      .container > .left {
+      .left {
         display: flex;
+        gap: 2px;
         flex-direction: column;
         flex: 2;
-        background-color: red;
       }
-
-      .center .left {
-        display: flex;
-      }
-
-      .center > .left {
-        display: flex;
-        flex-direction: column;
-      }
-
       .right {
-        background-color: rgb(0, 0, 255);
+        display: flex;
+        flex: 1;
+        background-color: blue;
+      }
+      .Lorem1 {
+        flex: 2;
+        background-color: lime;
+      }
+
+      .Lorem234 {
+        display: flex;
+        gap: 2px;
+        flex: 2;
+      }
+      .Lorem5 {
+        background-color: salmon;
+        flex: 1;
+      }
+      .Lorem24 {
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+        flex: 1;
+      }
+      .Lorem2 {
+        flex: 1;
+        background-color: magenta;
+      }
+      .Lorem4 {
+        flex: 1;
+        background-color: aqua;
+      }
+      .Lorem3 {
+        display: flex;
+        background-color: gray;
         flex: 1;
       }
     </style>
@@ -35,17 +59,16 @@
   <body>
     <div class="container">
       <div class="left">
-        <div class="top"></div>
-        <div class="center">
-          <div class="left">
-            <div class="top"></div>
-            <div class="right"></div>
+        <div class="Lorem1"></div>
+        <div class="Lorem234">
+          <div class="Lorem24">
+            <div class="Lorem2"></div>
+            <div class="Lorem4"></div>
           </div>
-          <div class="bottom"></div>
+          <div class="Lorem3"></div>
         </div>
-        <div class="right"></div>
+        <div class="Lorem5"></div>
       </div>
-      <div class="bottom"></div>
       <div class="right"></div>
     </div>
   </body>
