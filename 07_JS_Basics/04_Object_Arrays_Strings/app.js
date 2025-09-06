@@ -20,3 +20,6 @@ function showInputValue() {
   var myInput = document.getElementById('my-input');
   console.log(myInput.value);
 }
+
+var numbers = [6, 2, 7, 8, 9];
+console.log(numbers[0]);
