@@ -1,3 +1,28 @@
+// if(conditie) {
+//    // cod care se executa daca conditia este adevarata
+// }
+
+// if(conditie) {
+// 	// cod care se executa daca conditia este adevarata
+// } else {
+// 	// cod care se executa daca conditia este falsa
+// }
+
+// if (conditie1) {
+// 	// cod care se executa daca conditia1 este adevarata
+// } else if(conditie2) {
+// 	// cod care se executa daca conditia2 este adevarata
+// } else if(conditie3) {
+
+// }
+
+// var sare = '100g';
+// function blender(ingrediente) {
+//    return ingrediente + "pasate";
+// }
+// blender('cartofi');
+// blender("rosii");
+
 var inputCapacitateCilindrica = document.getElementById(
   'capacitate-cilindrica'
 );

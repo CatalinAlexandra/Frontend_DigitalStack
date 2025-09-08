@@ -24,3 +24,12 @@ function calculeazaIMC() {
       imc;
   }
 }
+function printeazaInParagrafulDeOutput(
+  indiceDeMasaCorporala,
+  mesaj,
+  culoareText
+) {
+  paragrafInCareAfisezRezultatul.innerHTML =
+    'IMC  tau este ' + indiceDeMasaCorporala.toFixed(1) + '. ' + mesaj;
+  paragrafInCareAfisezRezultatul.style = 'color:' + culoareText;
+}
